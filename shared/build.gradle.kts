@@ -28,6 +28,8 @@ kotlin {
                 implementation(Dependencies.ktorClientContentNegotiation)
                 implementation(Dependencies.ktorSerializationKotlinxJson)
                 implementation(Dependencies.koinCore)
+
+                api("org.reduxkotlin:redux-kotlin-threadsafe:0.6.1")
             }
         }
         val commonTest by getting {
